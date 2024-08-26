@@ -1,10 +1,10 @@
 # fix-ytdl-core
-Cách Fix ytdl-core by Thanh Loc
+1. Cách Fix ytdl-core by Thanh Loc
 
-"ytdl-core": "github:ThanhLoc04/ytdl-core#sig-patch" : dòng này thay vào package.json 
+2. "ytdl-core": "github:ThanhLoc04/ytdl-core#sig-patch" : dòng này thay vào package.json 
 
 vào package-lock.json xoá ytdl-core cũ đi
-LƯU Ý! trong package-lock.json 
+3. LƯU Ý! trong package-lock.json 
 phần undici theo bản này 
 "undici": {
       "version": "5.28.4",
@@ -14,4 +14,4 @@ phần undici theo bản này
         "@fastify/busboy": "^2.0.0"
       }
     },
-cứ npm i lại là xong. 
+4. cứ npm i lại là xong. 
